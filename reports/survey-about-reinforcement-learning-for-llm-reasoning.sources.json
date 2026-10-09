@@ -1,0 +1,128 @@
+[
+  {
+    "n": 1,
+    "id": "2507.04136",
+    "url": "https://arxiv.org/abs/2507.04136",
+    "title": "A Technical Survey of Reinforcement Learning Techniques for Large Language Models",
+    "date": "2025-07-05",
+    "source": "arxiv",
+    "content": "The survey highlights foundational RL methods like PPO, Q-Learning, and Actor-Critic for language models. It outlines how RLHF and RLAIF serve as foundations for adapting RL to reasoning, while advanced strategies like Direct Preference Optimization (DPO) and Group Relative Policy Optimization (GRPO) tailor the optimization process specifically to LLM architectures and capabilities."
+  },
+  {
+    "n": 2,
+    "id": "2412.18279",
+    "url": "https://arxiv.org/abs/2412.18279",
+    "title": "Improving Multi-Step Reasoning Abilities of Large Language Models with Direct Advantage Policy Optimization",
+    "date": "2024-12-24",
+    "source": "arxiv",
+    "content": "Applying RL to enhance LLM reasoning faces challenges like sparse rewards in multi-step logic and the inherent training instability of Actor-Critic (AC) methods. These issues make deriving optimal policies difficult, prompting the development of approaches that aim to stabilize the training process without relying strictly on unstable AC dynamics, leading to innovations building on foundational methods."
+  },
+  {
+    "n": 3,
+    "id": "2501.09686",
+    "url": "https://arxiv.org/abs/2501.09686",
+    "title": "Towards Large Reasoning Models: A Survey of Reinforced Learning for LLM Reasoning",
+    "date": "unknown",
+    "source": "web",
+    "content": "Proximal Policy Optimization (PPO) infers the contribution of intermediate reasoning steps via a value function but suffers from credit assignment bias. Direct Preference Optimization (DPO) simplifies the process by directly leveraging preference data without an explicit reward model, framing it as a classification loss. Variants like ODPO factor in the quality difference between responses to handle multi-step reasoning."
+  },
+  {
+    "n": 4,
+    "id": "2512.07611v1",
+    "url": "https://arxiv.org/html/2512.07611v1",
+    "title": "Comparative Analysis and Parametric Tuning of PPO, GRPO, and DAPO for LLM Reasoning Enhancement",
+    "date": "unknown",
+    "source": "web",
+    "content": "PPO uses an actor-critic model, which introduces memory overhead and instability for reasoning tasks. GRPO adapts PPO by removing the critic and calculating relative advantages within a local batch of generated responses. DAPO further builds on GRPO by shifting from sample-level to token-level policy gradient loss to encourage longer, detailed reasoning chains and mitigate gaming for short responses."
+  },
+  {
+    "n": 5,
+    "id": "2502.14768",
+    "url": "https://arxiv.org/abs/2502.14768",
+    "title": "Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning",
+    "date": "2025-02-20",
+    "source": "web",
+    "content": "REINFORCE++ leverages verifiable outcomes to foster advanced reasoning behaviors in LLMs. Compared to standard PPO, which achieves high accuracy but slower training, and GRPO, which incorporates KL-divergence via an unbiased estimator in the loss function, REINFORCE++ demonstrates superior stability, training efficiency, and performance gains by avoiding reasoning shortcuts through stringent format rewards."
+  },
+  {
+    "n": 6,
+    "id": "2609.36641",
+    "url": "https://arxiv.org/abs/2609.36641",
+    "title": "Inducing Process Supervision from Outcome-Only Reinforcement Learning",
+    "date": "2026-09-29",
+    "source": "arxiv",
+    "content": "### Inducing Process Supervision from Outcome-Only Reinforcement Learning\n- id: 2609.36641\n- url: https://arxiv.org/abs/2609.36641\n- date: 2026-09-29\n- source: arxiv\n- evidence:\n  - Training strong Process Reward Models (PRMs) is typically costly because it requires human step annotation or computationally expensive Monte Carlo estimation.\n  - The TIPS (Thinking-Induced Process Supervision) framework uses outcome-only reinforcement learning to train generative PRMs, relying only on whether the predicted outcome matches the ground truth.\n  - Outcome-only RL can reinforce step-level verification without explicit process supervision by using the group-relative advantage based on the final outcome.\n  - TIPS achieved 85.2 F1 on ProcessBench with only 3.2K outcome-labeled trajectories, outperforming other trained PRMs and strong prompt-only judges."
+  },
+  {
+    "n": 7,
+    "id": "2501.07301",
+    "url": "https://huggingface.co/papers/2501.07301",
+    "title": "The Lessons of Developing Process Reward Models in Mathematical Reasoning",
+    "date": "2025-01-13",
+    "source": "hf-search",
+    "content": "### The Lessons of Developing Process Reward Models in Mathematical Reasoning\n- id: 2501.07301\n- url: https://huggingface.co/papers/2501.07301\n- date: 2025-01-13\n- source: hf-search\n- evidence:\n  - Process Reward Models (PRMs) aim to identify and mitigate intermediate errors in the reasoning processes of Large Language Models (LLMs).\n  - Using Monte Carlo (MC) estimation to synthesize data for PRMs often yields inferior performance compared to LLM-as-a-judge and human annotation because it relies on completion models to evaluate current-step correctness.\n  - Best-of-N (BoN) evaluation strategies have potential biases because unreliable policy models can generate responses with correct answers but flawed processes, and PRMs sometimes tolerate these responses, inflating BoN scores.\n  - BoN Optimized PRMs show a shift from process-based to outcome-based assessment, with a significant proportion of minimum scores concentrated on final answer steps."
+  },
+  {
+    "n": 8,
+    "id": "2406.03816",
+    "url": "https://huggingface.co/papers/2406.03816",
+    "title": "ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search",
+    "date": "2024-06-06",
+    "source": "hf-search",
+    "content": "### ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search\n- id: 2406.03816\n- url: https://huggingface.co/papers/2406.03816\n- date: 2024-06-06\n- source: hf-search\n- evidence:\n  - ReST-MCTS* is a reinforced self-training approach integrating process reward guidance with tree search MCTS* to collect high-quality reasoning traces and per-step values.\n  - This method circumvents per-step manual annotations by using tree-search-based reinforcement learning, estimating the probability a step leads to a correct answer given oracle final answers.\n  - The inferred rewards act as value targets for refining the process reward model and help select high-quality traces for policy model self-training.\n  - The tree-search policy in ReST-MCTS* achieves higher accuracy compared to Best-of-N and Tree-of-Thought baselines within the same search budget."
+  },
+  {
+    "n": 9,
+    "id": "2609.39220",
+    "url": "https://arxiv.org/abs/2609.39220",
+    "title": "Learning Process Rewards via Reasoning State Propagation",
+    "date": "2026-09-30",
+    "source": "arxiv",
+    "content": "### Learning Process Rewards via Reasoning State Propagation\n- id: 2609.39220\n- url: https://arxiv.org/abs/2609.39220\n- date: 2026-09-30\n- source: arxiv\n- evidence:\n  - PRMs often model reasoning prefixes independently, lacking an explicit mechanism to use final outcome labels to guide intermediate reasoning states.\n  - Reasoning State Propagation (RSP) addresses this by representing reasoning prefixes with binary validity states and modeling transitions (break and repair probabilities) between successive states.\n  - By propagating transitions, RSP allows outcome labels to supervise the final state while providing learning signals to preceding intermediate steps.\n  - Across reasoning search, response selection, and reinforcement learning, RSP consistently outperforms representative PRM baselines."
+  },
+  {
+    "n": 10,
+    "id": "SeRL-2025",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/95c2cbe23fb6d28a4ae908aa7f3de5bf-Paper-Conference.pdf",
+    "title": "SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data",
+    "date": "unknown",
+    "source": "web",
+    "content": "### SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data\n- id: SeRL-2025\n- url: https://proceedings.neurips.cc/paper_files/paper/2025/file/95c2cbe23fb6d28a4ae908aa7f3de5bf-Paper-Conference.pdf\n- date: unknown\n- source: web\n- evidence: \n  - Proposes Self-play Reinforcement Learning (SeRL) to bootstrap LLM reasoning training using limited initial data in specialized domains where verifying rewards is difficult.\n  - The self-instruction module continuously generates new, diverse, and appropriately difficult instructions via few-shot prompting, adapting to the model's evolving capabilities.\n  - The self-rewarding module estimates response rewards for these synthetic instructions using a majority-voting mechanism instead of relying on external verifiable labels.\n  - Enables multi-round, iterative unsupervised reinforcement learning updates, resulting in performance matching high-quality, explicitly rewarded data."
+  },
+  {
+    "n": 11,
+    "id": "SynCo-2024",
+    "url": "https://arxiv.org/html/2610.11345",
+    "title": "SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning",
+    "date": "unknown",
+    "source": "web",
+    "content": "### SynCo: Data Synthesis Co-Training for Self-Evolving LLMs via Multi-Agent Reinforcement Learning\n- id: SynCo-2024\n- url: https://arxiv.org/html/2610.11345\n- date: unknown\n- source: web\n- evidence:\n  - Frames data synthesis and task learning as a coupled multi-agent reinforcement learning problem involving a Synthesizer agent and a Reasoner agent.\n  - The Synthesizer constructs training tasks tailored to the Reasoner's evolving capability state, observing feedback from rejected tasks and current empirical weaknesses.\n  - The Reasoner agent's rollouts generate correctness rewards for itself and complementary learning signals (task quality, outcome-grounded teachability) for the Synthesizer.\n  - Joint online training updates both policies iteratively, ensuring the training experience evolves dynamically and avoiding stagnation on tasks that have become too trivial or remain uninformative."
+  },
+  {
+    "n": 12,
+    "id": "SWiRL-Stanford",
+    "url": "https://scalingintelligence.stanford.edu/pubs/sdgrl/",
+    "title": "Synthetic Data Generation & Multi-Step RL for Reasoning",
+    "date": "unknown",
+    "source": "web",
+    "content": "### Synthetic Data Generation & Multi-Step RL for Reasoning\n- id: SWiRL-Stanford\n- url: https://scalingintelligence.stanford.edu/pubs/sdgrl/\n- date: unknown\n- source: web\n- evidence:\n  - Introduces Step-Wise Reinforcement Learning (SWiRL), an approach targeting multi-step text generation, reasoning, and tool-use tasks.\n  - Iteratively generates synthetic multi-step reasoning data and decomposes each long trajectory into sub-trajectories corresponding to individual actions.\n  - Applies synthetic data filtering and step-wise RL optimization on these sub-trajectories rather than optimizing the entire sequence as a single step.\n  - Demonstrates cross-task generalization, where iterative synthetic data RL on text question-answering improves zero-shot mathematical reasoning performance."
+  },
+  {
+    "n": 13,
+    "id": "Self-Evolving-LLMs-Arxiv",
+    "url": "https://www.arxiv.org/pdf/2603.02218",
+    "title": "Self-Evolving LLMs: Sustainable Data Pipelines",
+    "date": "unknown",
+    "source": "web",
+    "content": "### Self-Evolving LLMs: Sustainable Data Pipelines\n- id: Self-Evolving-LLMs-Arxiv\n- url: https://www.arxiv.org/pdf/2603.02218\n- date: unknown\n- source: web\n- evidence:\n  - Analyzes mode collapse in standard self-play loops, noting that systems plateau when synthetic data generation stops increasing learnable information.\n  - Identifies a triadic role perspective for self-evolving LLMs: a Proposer (task generation), a Solver (attempting solutions), and a Verifier (providing training signals).\n  - Argues for asymmetric co-evolution, dynamic model capacity growth, and proactive external information seeking to ensure monotonic increases in learnable information during iterative self-play.\n  - Recommends structuring self-synthetic directions by asymmetry gaps (e.g., small vs. large computational gaps between solving and verifying) to drive continuous self-correction and gradient-bearing updates."
+  },
+  {
+    "n": 14,
+    "id": "OPT-Zero-2026",
+    "url": "https://arxiv.org/abs/2609.34205",
+    "title": "Learning to Optimize through Solver-Grounded Self-Play",
+    "date": "2026-09-28",
+    "source": "arxiv",
+    "content": "### Learning to Optimize through Solver-Grounded Self-Play\n- id: OPT-Zero-2026\n- url: https://arxiv.org/abs/2609.34205\n- date: 2026-09-28\n- source: arxiv\n- evidence:\n  - Proposes OPT-Zero, a zero-data, fully self-play training framework for optimization modeling, addressing Generalization Ceiling and Capability Anchoring.\n  - Employs a single LLM in a dual-role closed loop: a Proposer generating increasingly challenging optimization problems and a Solver attempting to resolve them based on natural language descriptions.\n  - Reinforcement learning trains both roles alternately using execution feedback from external optimization solvers as verifiable ground truth.\n  - Generates an auto-curriculum where the Proposer's generation of harder valid problems directly enhances the structural reasoning capabilities of the Solver without curated training data."
+  }
+]

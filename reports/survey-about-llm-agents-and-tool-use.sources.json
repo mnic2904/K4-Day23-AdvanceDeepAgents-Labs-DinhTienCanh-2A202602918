@@ -1,0 +1,122 @@
+[
+  {
+    "n": 1,
+    "id": "Cognitive Computation (2026)",
+    "url": "https://link.springer.com/article/10.1007/s12559-026-10619-1",
+    "title": "From Language Models to Agentic AI: A Survey of Autonomous, Action-Enabled, and Collaborative LLM Agents",
+    "date": "2026-08-24",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2402.02716",
+    "url": "https://arxiv.org/abs/2402.02716",
+    "title": "Understanding the planning of LLM agents: A survey",
+    "date": "2024-02-05",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2508.17692",
+    "url": "https://arxiv.org/html/2508.17692",
+    "title": "LLM-based Agentic Reasoning Frameworks: A Survey from Methods to Scenarios",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2503.23037v2",
+    "url": "https://arxiv.org/html/2503.23037v2",
+    "title": "Agentic Large Language Models, a survey",
+    "date": "2025-04-03",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2401.17464",
+    "url": "https://arxiv.org/abs/2401.17464",
+    "title": "Efficient Tool Use with Chain-of-Abstraction Reasoning",
+    "date": "2024-01-30",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2302.04761",
+    "url": "https://huggingface.co/papers/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2305.15334",
+    "url": "https://huggingface.co/papers/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "2023-05-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 8,
+    "id": "2402.01680",
+    "url": "https://arxiv.org/html/2402.01680",
+    "title": "Large Language Model based Multi-Agents: A Survey of Progress and Challenges",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2507.21504",
+    "url": "https://huggingface.co/papers/2507.21504",
+    "title": "Evaluation and Benchmarking of LLM Agents: A Survey",
+    "date": "2025-07-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 10,
+    "id": "2610.11899",
+    "url": "https://arxiv.org/abs/2610.11899",
+    "title": "Forms of LLM-Integrated Applications from LLM-Chats to Autonomous AI Agent System",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2310.03128",
+    "url": "https://huggingface.co/papers/2310.03128",
+    "title": "MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use",
+    "date": "2023-10-04",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2503.21460",
+    "url": "http://arxiv.org/abs/2503.21460",
+    "title": "Large Language Model Agent: A Survey on Methodology, Applications and Challenges",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2604.00835",
+    "url": "https://arxiv.org/html/2604.00835",
+    "title": "Agentic Tool Use in Large Language Models: A Survey",
+    "date": "2026-06-29",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2610.11287",
+    "url": "https://huggingface.co/papers/2610.11287",
+    "title": "REMORY: Learning Residual Memory for Context Compaction",
+    "date": "2026-10-08",
+    "source": "hf-daily"
+  },
+  {
+    "n": 15,
+    "id": "2501.12851",
+    "url": "https://huggingface.co/papers/2501.12851",
+    "title": "ACEBench: Who Wins the Match Point in Tool Usage?",
+    "date": "2025-01-22",
+    "source": "hf-search"
+  }
+]

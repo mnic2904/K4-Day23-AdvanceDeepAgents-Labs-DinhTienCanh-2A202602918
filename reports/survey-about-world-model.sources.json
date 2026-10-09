@@ -1,0 +1,58 @@
+[
+  {
+    "n": 1,
+    "id": "2401.09985",
+    "url": "https://huggingface.co/papers/2401.09985",
+    "title": "WorldDreamer: Towards General World Models for Video Generation via Predicting Masked Tokens",
+    "date": "2024-01-18",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2405.15223",
+    "url": "https://huggingface.co/papers/2405.15223",
+    "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+    "date": "2024-05-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "1803.10122",
+    "url": "https://huggingface.co/papers/1803.10122",
+    "title": "World Models",
+    "date": "2018-03-27",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2610.12435",
+    "url": "https://arxiv.org/abs/2610.12435",
+    "title": "VioLA: Learning Generalist Humanoid Control Policies from Human Data",
+    "date": "2026-10-08",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "unknown",
+    "url": "https://dl.acm.org/doi/10.1145/3746449",
+    "title": "Understanding World or Predicting Future? A Comprehensive Survey of World Models",
+    "date": "2025-09-09",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2602.08968",
+    "url": "https://huggingface.co/papers/2602.08968",
+    "title": "Stable-worldmodel-v1: Reproducible World Modeling Research and Evaluation",
+    "date": "2026-02-09",
+    "source": "hf-search"
+  },
+  {
+    "n": 7,
+    "id": "2602.01630",
+    "url": "https://huggingface.co/papers/2602.01630",
+    "title": "Research on World Models Is Not Merely Injecting World Knowledge into Specific Tasks",
+    "date": "2026-02-02",
+    "source": "hf-search"
+  }
+]

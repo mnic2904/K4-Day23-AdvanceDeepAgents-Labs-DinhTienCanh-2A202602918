@@ -1,0 +1,24 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "ag/gemini-pro-agent",
+  "elapsed_s": 432.3,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "edit_file": 4,
+    "execute": 4,
+    "read_file": 6,
+    "task": 5,
+    "write_file": 2,
+    "write_todos": 4
+  },
+  "tokens": {
+    "input": 224854,
+    "output": 8959
+  },
+  "n_sources": 15,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ]
+}

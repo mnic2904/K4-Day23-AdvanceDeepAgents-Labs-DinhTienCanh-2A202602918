@@ -1,0 +1,114 @@
+[
+  {
+    "n": 1,
+    "id": "arxiv-2403.05131v3",
+    "url": "https://arxiv.org/html/2403.05131v3",
+    "title": "Sora as a World Model? A Complete Survey on Text-to-Video Generation",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2604.04953",
+    "url": "https://arxiv.org/abs/2604.04953",
+    "title": "Generative AI for Video Trailer Synthesis: From Extractive Heuristics to Autoregressive Creativity",
+    "date": "2026-04-03",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2601.17761",
+    "url": "https://huggingface.co/papers/2601.17761",
+    "title": "AR-Omni: A Unified Autoregressive Model for Any-to-Any Generation",
+    "date": "2026-01-25",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "2309.05519",
+    "url": "https://huggingface.co/papers/2309.05519",
+    "title": "NExT-GPT: Any-to-Any Multimodal LLM",
+    "date": "2023-09-11",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2610.09866",
+    "url": "https://arxiv.org/abs/2610.09866",
+    "title": "MUNITE: Unified Multimodal Latent Inference for Any-to-Any Multimodal Generation",
+    "date": "2026-10-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "safavigerdini_cvpr26",
+    "url": "https://openaccess.thecvf.com/content/CVPR2026W/VGBE/papers/Safavigerdini_Generative_AI_Video_Evaluation_Survey_of_Metrics_Benchmarks_and_Trustworthiness_CVPRW_2026_paper.pdf",
+    "title": "Generative AI Video Evaluation: Survey of Metrics, Benchmarks, and Trustworthiness",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "deepai_t2v",
+    "url": "https://www.deep.ai/publication/measuring-the-quality-of-text-to-video-model-outputs-metrics-and-dataset",
+    "title": "Measuring the Quality of Text-to-Video Model Outputs: Metrics and Dataset",
+    "date": "2023-09-14",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2403.16407v1",
+    "url": "https://arxiv.org/html/2403.16407v1",
+    "title": "A Survey on Long Video Generation: Challenges, Methods ...",
+    "date": "unknown",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "arxiv-2405.03150",
+    "url": "https://arxiv.org/abs/2405.03150",
+    "title": "Video Diffusion Models: A Survey",
+    "date": "2024-11-17",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2503.04641",
+    "url": "https://arxiv.org/abs/2503.04641",
+    "title": "Simulating the Real World: A Unified Survey of Multimodal Generative Models",
+    "date": "2025-03-06",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "mdpi-2673-6470",
+    "url": "https://www.mdpi.com/2673-6470/6/1/23",
+    "title": "Generative AI for Text-to-Video Generation: Recent Advances",
+    "date": "2026-03-09",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2412.00131",
+    "url": "https://huggingface.co/papers/2412.00131",
+    "title": "Open-Sora Plan: Open-Source Large Video Generation Model",
+    "date": "2024-11-28",
+    "source": "hf-daily"
+  },
+  {
+    "n": 13,
+    "id": "2412.01169",
+    "url": "https://huggingface.co/papers/2412.01169",
+    "title": "OmniFlow: Any-to-Any Generation with Multi-Modal Rectified Flows",
+    "date": "2024-12-02",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "2605.04045",
+    "url": "https://arxiv.org/abs/2605.04045",
+    "title": "Audio-Visual Intelligence in Large Foundation Models",
+    "date": "2026-05-05",
+    "source": "arxiv"
+  }
+]

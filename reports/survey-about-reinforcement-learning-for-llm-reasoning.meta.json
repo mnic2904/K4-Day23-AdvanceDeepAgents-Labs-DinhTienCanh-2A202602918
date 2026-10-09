@@ -1,0 +1,23 @@
+{
+  "topic": "survey about reinforcement learning for LLM reasoning",
+  "model": "ag/gemini-pro-agent",
+  "elapsed_s": 278.5,
+  "subagent_calls": 4,
+  "tool_calls": {
+    "execute": 7,
+    "read_file": 2,
+    "task": 4,
+    "write_file": 1,
+    "write_todos": 6
+  },
+  "tokens": {
+    "input": 250757,
+    "output": 7143
+  },
+  "n_sources": 14,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ]
+}

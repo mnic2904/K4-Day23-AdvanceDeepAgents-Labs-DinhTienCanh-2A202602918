@@ -1,0 +1,122 @@
+[
+  {
+    "n": 1,
+    "id": "2404.14219",
+    "url": "https://arxiv.org/abs/2404.14219",
+    "title": "Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone",
+    "date": "2024-04-22",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2409.15790",
+    "url": "https://huggingface.co/papers/2409.15790",
+    "title": "Small Language Models: Survey, Measurements, and Insights",
+    "date": "2024-09-24",
+    "source": "hf-search"
+  },
+  {
+    "n": 3,
+    "id": "2310.06825",
+    "url": "https://huggingface.co/papers/2310.06825",
+    "title": "Mistral 7B",
+    "date": "2023-10-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 4,
+    "id": "acl:2024.findings-acl.456",
+    "url": "https://aclanthology.org/2024.findings-acl.456/",
+    "title": "Unlocking Efficiency in Large Language Model Inference: A Comprehensive Survey of Speculative Decoding",
+    "date": "2024-08",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "arxiv:2408.03130",
+    "url": "https://app.argminai.com/arxiv-dashboard/papers/2408.03130v1",
+    "title": "Practical survey of quantization, pruning, distillation, and decoding tricks to make LLMs cheaper and faster",
+    "date": "2024-08-06",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "redhat-vllm-llamacpp",
+    "url": "https://developers.redhat.com/articles/2025/09/30/vllm-or-llamacpp-choosing-right-llm-inference-engine-your-use-case",
+    "title": "vLLM or llama.cpp: Choosing the right LLM inference engine for your use case",
+    "date": "2025-09-30",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "hosn-vllm-tgi",
+    "url": "https://hosn.om/blog/vllm-tgi-llamacpp-production.html",
+    "title": "vLLM vs TGI vs llama.cpp for Production LLM Serving",
+    "date": "2026-05-03",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "ijetrm-slm-edge",
+    "url": "https://ijetrm.com/issues/files/Mar-2025-06-1772816412-EVALUATING-SMALL-FEB2025-48.pdf",
+    "title": "EVALUATING SMALL LANGUAGE MODEL (SLM) ARCHITECTURES FOR REAL-TIME EDGE INFERENCE",
+    "date": "2025-03",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "acm-tinyllm",
+    "url": "https://dl.acm.org/doi/full/10.1145/3801487.3805608",
+    "title": "POSTER: TinyLLM: Evaluation and Optimization of Small Language Models for Agentic Tasks on Edge Devices",
+    "date": "2026-06-27",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "arxiv:2404.14294",
+    "url": "https://arxiv.org/html/2404.14294",
+    "title": "A Survey on Efficient Inference for Large Language Models",
+    "date": "2024-04-16",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "uoregon-survey",
+    "url": "https://www.cs.uoregon.edu/Reports/AREA-202606-Nguyen.pdf",
+    "title": "Efficient LLM Inference: A Survey",
+    "date": "2026-06",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2503.12167",
+    "url": "https://huggingface.co/papers/2503.12167",
+    "title": "PLM: Efficient Peripheral Language Models Hardware-Co-Designed for Ubiquitous Computing",
+    "date": "2025-03-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 13,
+    "id": "2403.08295",
+    "url": "https://huggingface.co/papers/2403.08295",
+    "title": "Gemma: Open Models Based on Gemini Research and Technology",
+    "date": "2024-03-13",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "2404.19553",
+    "url": "https://huggingface.co/papers/2404.19553",
+    "title": "Extending Llama-3's Context Ten-Fold Overnight",
+    "date": "2024-04-30",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "arxiv:2609.10355",
+    "url": "https://arxiv.org/abs/2609.10355",
+    "title": "Why Is Video Still So Expensive? A Survey of Inference-Efficiency Mechanisms in Video and Audiovisual LLMs",
+    "date": "2026-09-09",
+    "source": "arxiv"
+  }
+]

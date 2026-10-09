@@ -1,0 +1,24 @@
+{
+  "topic": "survey about LLM agents and tool use",
+  "model": "ag/gemini-pro-agent",
+  "elapsed_s": 331.3,
+  "subagent_calls": 5,
+  "tool_calls": {
+    "execute": 6,
+    "read_file": 1,
+    "task": 5,
+    "write_file": 3,
+    "write_todos": 6
+  },
+  "tokens": {
+    "input": 234169,
+    "output": 8728
+  },
+  "n_sources": 15,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}

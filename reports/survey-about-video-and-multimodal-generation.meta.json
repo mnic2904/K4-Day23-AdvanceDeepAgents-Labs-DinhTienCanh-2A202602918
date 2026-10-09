@@ -1,0 +1,25 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "ag/gemini-pro-agent",
+  "elapsed_s": 632.2,
+  "subagent_calls": 4,
+  "tool_calls": {
+    "edit_file": 6,
+    "execute": 5,
+    "read_file": 2,
+    "task": 4,
+    "write_file": 2,
+    "write_todos": 5
+  },
+  "tokens": {
+    "input": 280088,
+    "output": 6994
+  },
+  "n_sources": 14,
+  "source_families": [
+    "arxiv",
+    "hf-daily",
+    "hf-search",
+    "web"
+  ]
+}
